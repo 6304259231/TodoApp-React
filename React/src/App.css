@@ -1,0 +1,21 @@
+body{
+    background: rgb(61, 123, 61);
+    font-family: 'Rubik' , sans-serif;
+    box-sizing: border-box;
+}
+@media only screen and (max-width : 675px){
+    body{
+        width: 100% !important;
+    }
+    #add-task-section{
+        width: 95% !important;
+        margin: 8px auto;
+    }
+    #Tasks-section{
+        width: 95% !important;
+        margin: 8px auto;
+    }
+    .card{
+        width: 100% !important;
+    }
+}
